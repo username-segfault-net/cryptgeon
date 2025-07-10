@@ -18,8 +18,8 @@
 	let note: Note = $state({
 		contents: '',
 		meta: { type: 'text' },
-		views: 1,
-		expiration: 60,
+		views: 7,
+		expiration: 20160,
 	})
 	let files: FileDTO[] = $state([])
 	let result: NoteResult | null = $state(null)
